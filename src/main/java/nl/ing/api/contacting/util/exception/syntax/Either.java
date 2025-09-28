@@ -9,6 +9,4 @@ public sealed interface Either<L, R> permits Left, Right {
     }
 }
 
-record Left<L, R>(L value) implements Either<L, R> {}
 
-record Right<L, R>(R value) implements Either<L, R> {}
