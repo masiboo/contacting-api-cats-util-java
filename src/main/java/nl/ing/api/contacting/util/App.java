@@ -1,5 +1,8 @@
-package nl.ing.api.contacting.util.exception;
+package nl.ing.api.contacting.util;
 
+import nl.ing.api.contacting.util.exception.exp.ContactingBusinessError;
+import nl.ing.api.contacting.util.exception.exp.RuntimeError;
+import nl.ing.api.contacting.util.exception.exp.TimeoutError;
 import nl.ing.api.contacting.util.exception.syntax.Either;
 import nl.ing.api.contacting.util.exception.syntax.Left;
 import nl.ing.api.contacting.util.exception.syntax.OptionSyntax;

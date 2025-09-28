@@ -1,7 +1,7 @@
-package nl.ing.api.contacting.util.exception.syntaxf;
+package nl.ing.api.contacting.util.syntaxf;
 
 
-import nl.ing.api.contacting.util.exception.ContactingBusinessError;
+import nl.ing.api.contacting.util.exception.exp.ContactingBusinessError;
 import nl.ing.api.contacting.util.exception.syntax.Either;
 import nl.ing.api.contacting.util.exception.syntax.ResultT;
 import org.slf4j.Logger;

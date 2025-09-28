@@ -1,8 +1,9 @@
-package nl.ing.api.contacting.util.exception.syntaxf;
+package nl.ing.api.contacting.util.syntaxf;
 
 import nl.ing.api.contacting.util.exception.ContactingBusinessError;
-import nl.ing.api.contacting.util.exception.syntax.Either;
-import nl.ing.api.contacting.util.exception.syntax.ResultT;
+import nl.ing.api.contacting.util.syntax.Either;
+import nl.ing.api.contacting.util.syntax.ResultT;
+import nl.ing.api.contacting.util.syntax.Either;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.function.Supplier;

@@ -1,6 +1,6 @@
-package nl.ing.api.contacting.util.exception.syntax;
+package nl.ing.api.contacting.util.syntax;
 
-import nl.ing.api.contacting.util.exception.ContactingBusinessError;
+import nl.ing.api.contacting.util.exception.exp.ContactingBusinessError;
 
 public final class ResultF<F, A> {
     private final F wrapped;

@@ -1,8 +1,6 @@
-package nl.ing.api.contacting.util.exception.syntax;
+package nl.ing.api.contacting.util.syntax;
 
-import nl.ing.api.contacting.util.exception.ContactingBusinessError;
-
-import java.util.function.Function;
+import nl.ing.api.contacting.util.exception.exp.ContactingBusinessError;
 
 @FunctionalInterface
 public interface ErrorMappingFunction<A> {

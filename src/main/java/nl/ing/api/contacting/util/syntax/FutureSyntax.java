@@ -1,4 +1,4 @@
-package nl.ing.api.contacting.util.exception.syntax;
+package nl.ing.api.contacting.util.syntax;
 
 
 import java.util.concurrent.CompletableFuture;

@@ -1,4 +1,4 @@
-package nl.ing.api.contacting.util.exception.syntaxf;
+package nl.ing.api.contacting.util.syntaxf;
 
 import java.util.function.Function;
 import java.util.function.Supplier;

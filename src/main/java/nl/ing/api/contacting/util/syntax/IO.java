@@ -1,9 +1,6 @@
-package nl.ing.api.contacting.util.exception.syntax;
+package nl.ing.api.contacting.util.syntax;
 
 
-import java.time.Duration;
-import java.util.concurrent.*;
-import java.util.function.Function;
 import java.util.function.Supplier;
 
 /**
@@ -12,7 +9,6 @@ import java.util.function.Supplier;
 
 import java.util.concurrent.CompletableFuture;
 import java.util.concurrent.ExecutionException;
-import java.util.function.Supplier;
 
 /**
  * Minimal IO effect type, inspired by Cats Effect IO.

@@ -1,36 +1,36 @@
-package nl.ing.api.contacting.util.exception.syntax;
+package nl.ing.api.contacting.util.syntax;
 
 import java.util.function.Consumer;
 
-public record Right<L, R>(R value) implements Either<L, R> {
+public record Left<L, R>(L value) implements Either<L, R> {
 
     @Override
     public void ifRight(Consumer<R> action) {
-        action.accept(value);
+        // Left has no right value → do nothing
     }
 
     @Override
     public void ifLeft(Consumer<L> action) {
-        // Right has no left value → do nothing
+        action.accept(value);
     }
 
     @Override
     public boolean isRight() {
-        return true;
-    }
-
-    @Override
-    public boolean isLeft() {
         return false;
     }
 
     @Override
+    public boolean isLeft() {
+        return true;
+    }
+
+    @Override
     public R getRight() {
-        return value;
+        throw new IllegalStateException("No right value in Left");
     }
 
     @Override
     public L getLeft() {
-        throw new IllegalStateException("No left value in Right");
+        return value;
     }
 }
