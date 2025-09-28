@@ -4,6 +4,7 @@ import nl.ing.api.contacting.util.exception.ContactingBusinessError;
 
 import java.util.Optional;
 
+@SuppressWarnings("OptionalUsedAsFieldOrParameterType")
 public final class OptionSyntax {
 
     private OptionSyntax() {
