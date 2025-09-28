@@ -1,0 +1,14 @@
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/ContactingBusinessError.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/RuntimeError.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/TimeoutError.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/Applicative.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/Either.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/EitherT.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/ErrorMappingFunction.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/Example.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/FutureSyntax.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/IO.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/OptionSyntax.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/Result.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/ResultF.java
+/Users/ug63jm/dev/rnd/contacting-cats-util-java/src/main/java/nl/ing/api/contacting/util/exception/syntax/ResultT.java

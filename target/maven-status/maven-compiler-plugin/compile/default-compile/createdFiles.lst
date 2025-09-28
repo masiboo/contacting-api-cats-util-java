@@ -1,0 +1,6 @@
+nl/ing/api/contacting/util/exception/syntax/Right.class
+nl/ing/api/contacting/util/exception/syntax/Either.class
+nl/ing/api/contacting/util/exception/syntax/Left.class
+nl/ing/api/contacting/util/exception/syntax/EitherT.class
+nl/ing/api/contacting/util/exception/syntax/ErrorMappingFunction.class
+nl/ing/api/contacting/util/exception/syntax/Applicative.class
